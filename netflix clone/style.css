@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: netflix1;
+    src: url(./fonts/NetflixSans_W_Blk.woff2);
+}
+@font-face {
+    font-family: netflix2;
+    src: url(./fonts/NetflixSans_W_Md.woff2);
+}
+@font-face {
+    font-family: netflix3;
+    src: url(./fonts/NetflixSans_W_Rg.woff2);
+}
+main{
+    /* background-image: url(images/Background.JPEG); */
+    height: 100vh;
+}
+#e1337{
+    height: 35px;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+.center-text{
+    font-family: netflix1;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+#center-text2{
+    display: flex;
+    font-family: netflix3;
+    font-size: 29px;
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+}
+.center-text3{
+    display: flex;
+    font-family: netflix3;
+    font-size: 25px;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+}
+.button1{
+    cursor: pointer;
+    background-color: rgb(219, 19, 19);
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    font-family: netflix3;
+    margin-left: 763px;
+    padding-left: 10px;
+    margin-right: 435px;
+    margin-top: -57px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
